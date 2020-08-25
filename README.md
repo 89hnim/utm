@@ -76,6 +76,7 @@ private fun MainActivity.trackInstallReferrer(referrerUrl: String) {
 
 Sử dụng: trong MainActivity
 ```
+ val backgroundExecutor: Executor = Executors.newSingleThreadExecutor()
 override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
