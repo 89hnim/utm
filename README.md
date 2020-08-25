@@ -1,4 +1,5 @@
 # Gắn tracking utm
+https://developers.google.com/analytics/devguides/collection/android/v4/campaigns
 
 Thêm dependency trong build.gradle(app)
 ```
@@ -80,4 +81,5 @@ override fun onCreate(savedInstanceState: Bundle?) {
         setContentView(R.layout.activity_main)
         initCampaign()
         ...
+}
 ```
