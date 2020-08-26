@@ -86,27 +86,26 @@ override fun onCreate(savedInstanceState: Bundle?) {
 ```
 
 **Cách test**
-1. Build file apk, lưu lại đường dẫn. 
+1. Build file apk, lưu lại đường dẫn.   
 Ví dụ: E:\Android\AndroidStudioProjects\Volio\speedtest\app\build\outputs\apk\debug\app-debug.apk
 
-2. Vào link dưới để build 1 url để test. Trường Application ID: nhập id của app. Nhập các trường khác tùy ý. Chọn Generate URL
+2. Vào link dưới để build 1 url để test. Trường Application ID: nhập id của app. Nhập các trường khác tùy ý. Chọn Generate URL  
 https://developers.google.com/analytics/devguides/collection/android/v4/campaigns#google-play-url-builder
 
 3. Xóa app cũ trong máy, quét mã QR lấy được ở bước 2. Sau khi quét sẽ được chuyển đến chplay. App ở trạng thái chưa install
 
-4. Vào cmd, cd đến folder platform-tools trong sdk, thường nằm cùng folder Android Studio như sau
+4. Vào cmd, cd đến folder platform-tools trong sdk, thường nằm cùng folder Android Studio như sau  
 cd E:\Android\sdk\platform-tools\
 
-5. Chạy adb.exe
+5. Chạy adb.exe  
 E:\Android\sdk\platform-tools>adb.exe
 
-6. Chạy adb install <Đường dẫn đến file apk>
+6. Chạy adb install <Đường dẫn đến file apk>  
 E:\Android\sdk\platform-tools>adb install E:\Android\AndroidStudioProjects\Volio\speedtest\app\build\outputs\apk\debug\app-debug.apk
 
 7. Đợi install xong màn chplay sẽ chuyển thành trạng thái đã cài đặt app -> Ấn Open
 
-8. Kiểm tra log với tag "AppDebug" xem có xuất hiện kết quả là thêm thành công
-
+8. Kiểm tra log với tag "AppDebug" xem có xuất hiện kết quả là thêm thành công  
 Ví dụ: D/AppDebug:  Url utm_source=google2&utm_medium=cpc&utm_term=running&utm_content=test&utm_campaign=nametesst&anid=admob
 
 
