@@ -85,11 +85,11 @@ override fun onCreate(savedInstanceState: Bundle?) {
 }
 ```
 
-##Cách test
+#Cách test
 1. Build file apk, lưu lại đường dẫn. 
 Ví dụ: E:\Android\AndroidStudioProjects\Volio\speedtest\app\build\outputs\apk\debug\app-debug.apk
 
-2.Vào link dưới để build 1 url để test. Trường Application ID: nhập id của app. Nhập các trường khác tùy ý. Chọn Generate URL
+2. Vào link dưới để build 1 url để test. Trường Application ID: nhập id của app. Nhập các trường khác tùy ý. Chọn Generate URL
 https://developers.google.com/analytics/devguides/collection/android/v4/campaigns#google-play-url-builder
 
 3. Xóa app cũ trong máy, quét mã QR lấy được ở bước 2. Sau khi quét sẽ được chuyển đến chplay. App ở trạng thái chưa install
