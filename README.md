@@ -85,7 +85,7 @@ override fun onCreate(savedInstanceState: Bundle?) {
 }
 ```
 
-#Cách test
+**Cách test**
 1. Build file apk, lưu lại đường dẫn. 
 Ví dụ: E:\Android\AndroidStudioProjects\Volio\speedtest\app\build\outputs\apk\debug\app-debug.apk
 
