@@ -106,6 +106,7 @@ E:\Android\sdk\platform-tools>adb install E:\Android\AndroidStudioProjects\Volio
 7. Đợi install xong màn chplay sẽ chuyển thành trạng thái đã cài đặt app -> Ấn Open
 
 8. Kiểm tra log với tag "AppDebug" xem có xuất hiện kết quả là thêm thành công
+
 Ví dụ: D/AppDebug:  Url utm_source=google2&utm_medium=cpc&utm_term=running&utm_content=test&utm_campaign=nametesst&anid=admob
 
 
